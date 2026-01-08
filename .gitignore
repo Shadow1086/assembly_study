@@ -1,0 +1,45 @@
+# MASM 编译生成文件
+*.exe
+*.obj
+*.lst
+*.ilk
+*.pdb
+*.map
+*.DLL
+*.HLP
+*.lib
+*.lnk
+
+# OllyDBG 调试器文件
+*.udd
+OllyDBG2.ini
+ollydbg.log
+ollydbg.ppt
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+logs/
+*.log
+
+# Wine 临时文件
+*.tmp
+*.temp
+
+# IDE 配置（可选，根据需要调整）
+.vscode/
+.idea/
+
+# 备份文件
+*.bak
+*~
+
+# 示例代码目录
+示例代码/
+progs/
+
+# 其他杂项文件
+readme.txt
+dosbox-test01.conf
